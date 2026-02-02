@@ -1,0 +1,20 @@
+[
+  {
+    "topicId": "t1",
+    "title": "Комикс 1",
+    "note": "Комиксті қарап шық.",
+    "embedUrl": "https://qazcomics.kz/kz/comics/4"
+  },
+  {
+    "topicId": "t2",
+    "title": "Комикс 2",
+    "note": "Комиксті қарап шық.",
+    "embedUrl": "https://qazcomics.kz/kz/comics/17"
+  },
+  {
+    "topicId": "t3",
+    "title": "Комикс 3",
+    "note": "Комиксті қарап шық.",
+    "embedUrl": "https://qazcomics.kz/kz/comics/19"
+  }
+]
