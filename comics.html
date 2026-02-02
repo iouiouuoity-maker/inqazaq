@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Комикстер</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container header__row">
+    <div class="brand">
+      <div class="brand__logo" aria-hidden="true">ҚТ</div>
+      <div>
+        <div class="brand__title">Комикстер</div>
+        <div class="brand__subtitle">Сурет</div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Мәзір">
+      <a href="index.html">Басты бет</a>
+      <a href="topics.html">Тақырыптар</a>
+      <a href="glossary.html">Сөздік</a>
+      <a href="tasks.html">Тапсырмалар</a>
+      <a href="ai-helper.html">Көмекші</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Комикстер</h1>
+  <div id="comicsList" class="list"></div>
+</main>
+
+<script src="assets/js/app.js"></script>
+<script>
+  App.renderComics("comicsList");
+</script>
+</body>
+</html>
