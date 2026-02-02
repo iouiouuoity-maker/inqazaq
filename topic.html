@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Тақырып</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container header__row">
+    <div class="brand">
+      <div class="brand__logo" aria-hidden="true">ҚТ</div>
+      <div>
+        <div class="brand__title" id="topTitle">Тақырып</div>
+        <div class="brand__subtitle">Қазақ тілі</div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Мәзір">
+      <a href="topics.html">Тақырыптар</a>
+      <a href="glossary.html">Сөздік</a>
+      <a href="comics.html">Комикстер</a>
+      <a href="tasks.html">Тапсырмалар</a>
+      <a href="ai-helper.html">Көмекші</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h1 id="h1" class="page-title">...</h1>
+    <p id="desc" class="muted"></p>
+  </section>
+
+  <section class="card">
+    <h2>Мәтін</h2>
+    <div id="textBox" class="reading"></div>
+  </section>
+
+  <section class="card">
+    <h2>Комикс</h2>
+    <div id="comicBox"></div>
+  </section>
+
+  <section class="card">
+    <h2>Тапсырмалар</h2>
+    <div id="taskBox" class="list"></div>
+  </section>
+</main>
+
+<script src="assets/js/app.js"></script>
+<script>
+  App.renderTopicPage({
+    topTitleId: "topTitle",
+    h1Id: "h1",
+    descId: "desc",
+    textBoxId: "textBox",
+    comicBoxId: "comicBox",
+    taskBoxId: "taskBox"
+  });
+</script>
+</body>
+</html>
